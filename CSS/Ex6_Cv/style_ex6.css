@@ -1,0 +1,29 @@
+body {
+    background-color:aqua;
+    background-image: url("");
+}
+.verde{
+    color: darkgreen;
+}
+#text1, h2{
+    text-align: center;
+}
+.maiuscula{
+    text-transform: uppercase;
+}
+p{
+    text-indent: 50px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-family: arial;
+}
+h1{
+    line-height: 5.0;
+    color: green;
+}
+p.small{
+    line-height: 0.8;
+}
+h2{
+    text-shadow: 3px 1px white;
+}
