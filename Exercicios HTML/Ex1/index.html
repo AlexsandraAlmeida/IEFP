@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--informa ao navegador que isto eh um html5-->
+<html lang="pt-PT">
+<!--Informa ao motor de busca q o site esta em um det. idioma-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--compatibilidade com IE-->
+    <!--acrescenta comportamentos responsivos ao nosso site-->
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <!--rel:extensao, href:a extensao da imagem, type:tipo de ficheiro-->
+    <title>primeira pagina</title>
+</head>
+
+<body>
+    <h1 id="p2" class="paragrafo"> A minha primeira página WEB </h1>
+    <hr>
+    <!--cria uma linha horizontal no navegador-->
+    <p id="p1" class="paragrafo"> Olá Mundo! &#128516
+        <br> para fazer quebra de linha uso a tag br 
+        <br>para por um emoji &#128516 </p>
+
+    <p> <a href="https://www.sapo.pt/" target="_self" rel="next"> Site sapo </a>
+        <!-- continuar navegando no site 
+        A tag a (ancora) serve para fazer uma ligaçao link, aponta para algum tipo de ligaçao: site , past, foto etc--> </p>
+    <p> <a href="https://www.cmtv.pt/" target="_blank" rel="external"> Site CMTV </a>
+        <!-- abrir perfil numa nova janela--> </p>
+    <p> <a href="ex1.html"> Ir ao exercicio um </a>
+        <!--caminho relativo, dar preferencia a este tipo de referencia/ 
+            ../volta a pasta anterior--> </p> 
+        <img src="imagens/html.webp" width="150px" height="120px" alt="Imagem HTML"></p>
+    <p><h2>Navegar atraves de links sobre imagens</h2>
+        <a href="https://www.google.pt/?hl=pt-PT" target="_blank"> <img src="" alt="logo google" width="150px" height="100px" ></a></p>
+
+        <!--atibuir musica/audio na pagina-->
+    
+    <audio controls autoplay>
+        <source src="audio/file_example_MP3_700KB.mp3" type="audio/mpeg" >
+
+    </audio>
+
+    <!--Listas nao ordenadas, com simbolos-->
+    <h2>Listas ordenadas</h2>
+    <ul style="list-style-type:circle;">
+        <li>Tirar a roupa do varal</li>
+        <li>por a roupa no cesto</li>
+        <li>dar comida aos animais</li>
+        <ul>
+            <li>gato</li>
+            <li>cachorro</li>
+            <li>pássaro</li>
+        </ul>
+    </ul>
+    <ol start="4" style="list-style-type:upper-alpha;">
+        <li>Tirar a roupa do varal</li>
+        <li>por a roupa no cesto</li>
+        <li>dar comida aos animais</li>
+    </ol>
+    <ol>
+        <li>Tirar a roupa do varal</li>
+        <li>por a roupa no cesto</li>
+        <li>dar comida ao cão</li>
+        <ol start="87" style="list-style-type:upper-roman;">
+            <li>Alexsandra</li>
+        </ol>
+        
+    </ol>
+    
+
+</body>
+
+</html>
